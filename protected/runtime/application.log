@@ -1,0 +1,1068 @@
+2014/02/25 04:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/default/ind...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/index.php?r=api/default/index.php
+---
+2014/02/25 04:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/default/ind...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/index.php?r=api/default/index.php
+---
+2014/02/25 04:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/default/ind...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/index.php?r=api/default/index.php
+---
+2014/02/25 07:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/index".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/index')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/index
+---
+2014/02/25 07:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:22:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:24:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/default/use...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/default/user
+---
+2014/02/25 07:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/default/use...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/default/user
+---
+2014/02/25 07:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/gii".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/gii')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/gii
+---
+2014/02/25 07:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in /Library/yii/framework/gii/CCodeGenerator.php:90
+Stack trace:
+#0 /Library/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionCode()
+#1 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Library/yii/framework/web/CWebApplication.php(282): CController->run('code')
+#5 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/dabanshi/gii/controller/code/id/0
+---
+2014/02/25 07:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 07:50:35 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendResponse".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(16): CComponent->__call('_sendResponse', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(16): UserController->_sendResponse(200, 'No items')
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionList()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/list')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/list
+---
+2014/02/25 08:41:41 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendError".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): CComponent->__call('_sendError', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): UserController->_sendError(400)
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/create
+---
+2014/02/25 08:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create-d".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('create-d')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create-d')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/create-d
+---
+2014/02/25 08:46:21 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendError".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): CComponent->__call('_sendError', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): UserController->_sendError(400)
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/create
+---
+2014/02/25 08:47:10 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendError".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): CComponent->__call('_sendError', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): UserController->_sendError(400)
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/create
+---
+2014/02/25 08:47:36 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendError".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): CComponent->__call('_sendError', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): UserController->_sendError(400)
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/create
+---
+2014/02/25 08:47:48 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "_sendError".' in /Library/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): CComponent->__call('_sendError', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(48): UserController->_sendError(400)
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/create')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/user/create
+---
+2014/02/25 08:48:37 [error] [php] Missing argument 2 for RestController::_sendError(), called in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php on line 48 and defined (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/components/RestController.php:16)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#2 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#3 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/create
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/components/RestController.php (16)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:23:20 [error] [php] Undefined variable: item (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:32)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/view?id=1
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (32)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:49:17 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:49:50 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:51:04 [error] [php] Undefined variable: _PUT (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:51:36 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:73)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update?user_id=Slh_20140225091844
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:52:04 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:53:27 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:73)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update?user_id=Slh_20140225091844
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:53:47 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:73)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update?user_id=Slh_20140225091844
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:56:13 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 09:58:06 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:73)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update?user_id=Slh_20140225091844
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:02:34 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/
+---
+2014/02/25 10:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/123
+---
+2014/02/25 10:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/123
+---
+2014/02/25 10:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/
+---
+2014/02/25 10:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/list
+---
+2014/02/25 10:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/list
+---
+2014/02/25 10:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/list
+---
+2014/02/25 10:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/
+---
+2014/02/25 10:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:09:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/
+---
+2014/02/25 10:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/list
+---
+2014/02/25 10:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user
+---
+2014/02/25 10:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Slh_20140225091844".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('Slh_20140225091...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('Slh_20140225091...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/Slh_20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/Slh_20140225091844
+---
+2014/02/25 10:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/
+---
+2014/02/25 10:14:11 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/user/S...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/user/Slh_20140225091844
+---
+2014/02/25 10:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('user')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('user')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/user/S...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/user/Slh_20140225091844
+---
+2014/02/25 10:19:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aii".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('aii')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/aii
+---
+2014/02/25 10:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aii".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('aii')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/aii
+---
+2014/02/25 10:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aii".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('aii')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/aii
+---
+2014/02/25 10:20:15 [error] [php] include(User.php): failed to open stream: No such file or directory (/Library/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php(13): spl_autoload_call()
+#1 /Library/yii/framework/web/actions/CInlineAction.php(49): UserController->actionList()
+#2 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#4 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#5 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#6 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "um M20140225102250".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('um M20140225102...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('um M20140225102...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/um M20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/um+M20140225102250
+---
+2014/02/25 10:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "um M20140225102250".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('um M20140225102...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('um M20140225102...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/um M20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/um+M20140225102250
+---
+2014/02/25 10:27:29 [error] [php] Undefined index: id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:31)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/view?user_id=aexv20140225102622
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:27:51 [error] [php] Undefined index: user+id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:31)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/view?user_id=aexv20140225102622
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aexv20140225102622".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('aexv20140225102...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('aexv20140225102...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/aexv20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/aexv20140225102622
+---
+2014/02/25 10:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aexv20140225102622".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('aexv20140225102...')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('aexv20140225102...')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/aexv20...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/aexv20140225102622
+---
+2014/02/25 10:31:14 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:41:29 [error] [php] Undefined index: user_id (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:68)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (68)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 10:43:45 [error] [php] Array to string conversion (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:73)
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Library/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Library/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user/update
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (73)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 11:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('register')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/regist...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/register
+---
+2014/02/25 11:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reginshi".' in /Library/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(270): CController->missingAction('reginshi')
+#1 /Library/yii/framework/web/CWebApplication.php(282): CController->run('reginshi')
+#2 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/user/regins...')
+#3 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dabanshi/api/user/reginshi/api/register
+---
+2014/02/25 11:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/register".' in /Library/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#1 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:18:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:19:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:20:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:21:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register/in...')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register/index
+---
+2014/02/25 11:24:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register/in...')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register/index
+---
+2014/02/25 11:24:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register/in...')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register/index
+---
+2014/02/25 11:24:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register/in...')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register/index
+---
+2014/02/25 11:24:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:24:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:25:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Library/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Library/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#5 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 11:29:34 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.reqeust" is not defined.' in /Library/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Library/yii/framework/base/CModule.php(105): CComponent->__get('reqeust')
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(18): CModule->__get('reqeust')
+#2 /Library/yii/framework/web/actions/CInlineAction.php(49): RegisterController->actionIndex()
+#3 /Library/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Library/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Library/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Library/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Library/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#8 /Library/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 14:58:27 [error] [php] Trying to get property of non-object (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:29)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (29)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 15:05:32 [error] [php] Trying to get property of non-object (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php:30)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): UserController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): UserController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/user
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/UserController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/25 15:53:21 [error] [exception.CException] exception 'CException' with message 'RegisterController and its behaviors do not have a method or closure named "create_password".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): CComponent->__call('create_password', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): RegisterController->create_password()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegisterController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 15:53:54 [error] [exception.CException] exception 'CException' with message 'RegisterController and its behaviors do not have a method or closure named "create_password".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): CComponent->__call('create_password', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): RegisterController->create_password()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegisterController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 15:58:41 [error] [exception.CException] exception 'CException' with message 'RegisterController and its behaviors do not have a method or closure named "create_password".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): CComponent->__call('create_password', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): RegisterController->create_password()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegisterController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/register
+---
+2014/02/25 15:59:40 [error] [exception.CException] exception 'CException' with message 'RegisterController and its behaviors do not have a method or closure named "create_password".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): CComponent->__call('create_password', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php(72): RegisterController->create_password()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegisterController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/register')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dabanshi/api/register
+---
