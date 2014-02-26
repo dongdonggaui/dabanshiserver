@@ -43,7 +43,7 @@ class RegisterController extends RestController {
                 if(strlen($phoneNum) != 11) {
                     $this->_sendError(400, 'phone number invalid');
                 }
-                $exists = User::model()->exists('phone=:phone', array(':phone'=>$phone));
+                $exists = User::model()->exists('phone=:phone', array(':phone'=>$phoneNum));
                 if($exists) {
                     $this->_sendError(400, 'The phone number is already exist.');
                 }
@@ -75,7 +75,35 @@ class RegisterController extends RestController {
             $user->user_id = $user_id;
 
             if($user->save()) {
-                $this->_sendResponse(200, CJSON::encode($user));
+                // 注册成功，登录
+                // 获取 token
+                $tokenBase = $this->create_password().date('YmdHis').$this->create_password();
+                $token = md5($tokenBase);
+
+                // 存储 token
+                $tokenObj = new Token;
+                $tokenObj->token = $token;
+                $tokenObj->user_id = $user->user_id;
+                $expire_in = date('YmdHis', time() + 3*30*24*3600);
+                $tokenObj->expire_in = $expire_in;
+                if(!$tokenObj->save()) {
+                    $this->_sendError(500, 'token write error');
+                }
+
+                // 返回响应
+                $response = array(
+                    'token'=>$token,
+                    'expire_in'=>$expire_in,
+                    'user'=>array(
+                        'user_id'=>$user->user_id,
+                        'username'=>$user->username,
+                        'email'=>$user->email,
+                        'phone'=>$user->phone,
+                        'description'=>$user->description,
+                        'address'=>$user->address,
+                    ),
+                );
+                $this->_sendResponse(200, CJSON::encode($response));
             }
             else
                 $this->_sendError(500, '');

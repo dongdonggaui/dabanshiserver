@@ -10,13 +10,19 @@ class UserController extends RestController {
     // Actions
     public function actionList()
     {
-//        $items = User::model()->findAll();
+        // 验证 token
+        if(isset($_GET['token'])) {
+            $token = $_GET['token'];
+            if(!$this->tokenValid($token)) {
+                $this->_sendError(402, 'login is out of date, please login again');
+            }
+        }
 
         $criteria = new CDbCriteria;
-        $criteria->select = array('user_id', 'username', 'nickname', 'description', 'avator', 'type', 'credit_rate');  // 只选择 'title' 列
+        $criteria->select = array('user_id', 'username', 'nickname', 'description', 'avator', 'type', 'credit_rate');
 //        $criteria->condition='postID=:postID';
 //        $criteria->params=array(':postID'=>10);
-        $items=User::model()->findAll($criteria); // $params 不需要了
+        $items=User::model()->findAll($criteria);
 
         if(empty($items))
         {

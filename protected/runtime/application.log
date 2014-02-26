@@ -1066,3 +1066,25 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/dabanshi/api/register
 ---
+2014/02/26 22:03:38 [error] [php] Undefined variable: phone (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php:46)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): RegisterController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): RegisterController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): RegisterController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/register
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/26 22:07:59 [error] [php] Undefined variable: phone (/Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php:46)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): RegisterController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): RegisterController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): RegisterController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CWebApplication->run()
+REQUEST_URI=/dabanshi/api/register
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)

@@ -5,7 +5,9 @@
  * Date: 14-2-25
  * Time: 下午2:18
  */
+
 date_default_timezone_set('PRC');
+
 
 class RestController extends Controller {
     /**
@@ -136,6 +138,16 @@ class RestController extends Controller {
         return (isset($codes[$status])) ? $codes[$status] : '';
     }
 
+    public function tokenValid($token)
+    {
+        $exists = Token::model()->exists('token=:token', array(':token'=>$token));
+        if(!$exists) {
+            return false;
+        }
+
+        $tokenObj = Token::model()->find('token=:token', array(':token'=>$token));
+        return strtotime($tokenObj->expire_in) > time();
+    }
 
     public function create_password($pw_length = 4)
     {
