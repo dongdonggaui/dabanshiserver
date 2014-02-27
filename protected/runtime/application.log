@@ -1088,3 +1088,11 @@ Stack trace:
 REQUEST_URI=/dabanshi/api/register
 in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/protected/modules/api/controllers/RegisterController.php (46)
 in /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php (13)
+2014/02/27 16:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dabanshi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dabanshi/user
+---

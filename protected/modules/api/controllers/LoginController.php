@@ -18,12 +18,12 @@ class LoginController extends RestController {
                 if($exists) {
                     // 获取用户资料
                     $criteria = new CDbCriteria;
-                    $criteria->select = array('user_id', 'username', 'password', 'description', 'address');
+                    $criteria->select = array('user_id', 'username', 'password', 'avator', 'nickname', 'description', 'address');
                     $criteria->condition = 'username=:username';
                     $criteria->params = array(':username'=>$username);
                     $user = User::model()->find($criteria);
                     if($password != $user->password) {
-                        $this->_sendError(401, 'password is invalid');
+                        $this->_sendError(401, '密码不正确');
                     }
 
                     // 验证成功，删除往期 token
@@ -40,7 +40,7 @@ class LoginController extends RestController {
                     $expire_in = date('YmdHis', time() + 3*30*24*3600);
                     $tokenObj->expire_in = $expire_in;
                     if(!$tokenObj->save()) {
-                        $this->_sendError(500, 'token write error');
+                        $this->_sendError(500, '服务器错误，token写错误');
                     }
 
                     // 返回响应
@@ -52,12 +52,14 @@ class LoginController extends RestController {
                             'username'=>$user->username,
                             'description'=>$user->description,
                             'address'=>$user->address,
+                            'nickname'=>$user->nickname,
+                            'avator'=>$user->avator,
                         ),
                     );
 
                     $this->_sendResponse(200, CJSON::encode($response));
                 } else {
-                    $this->_sendError(404, 'User not found');
+                    $this->_sendError(404, '用户不存在');
                 }
             } else {
                 $this->_sendError(400, 'param \'username\' and \'password\' required');

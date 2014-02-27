@@ -19,7 +19,7 @@ class UserController extends RestController {
         }
 
         $criteria = new CDbCriteria;
-        $criteria->select = array('user_id', 'username', 'nickname', 'description', 'avator', 'type', 'credit_rate');
+        $criteria->select = array('user_id', 'username', 'nickname', 'description', 'avator', 'type', 'credit_rate', 'address');
 //        $criteria->condition='postID=:postID';
 //        $criteria->params=array(':postID'=>10);
         $items=User::model()->findAll($criteria);
@@ -40,6 +40,7 @@ class UserController extends RestController {
                     'avator'=>$item->avator,
                     'type'=>$item->type,
                     'credit_rate'=>$item->credit_rate,
+                    'address'=>$item->address,
                 );
             $this->_sendResponse(200, CJSON::encode($rows));
         }

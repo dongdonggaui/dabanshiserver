@@ -16,6 +16,8 @@ class RestController extends Controller {
      * @param string $errorMessage 错误信息，为 null 时根据错误代码自动获得信息
      */
     public function _sendError($errorCode, $errorMessage) {
+        $status_header = 'HTTP/1.1 ' . $errorCode . ' ' . $this->_getStatusCodeMessage($errorCode);
+        header($status_header);
         header("Content-type:application/json;");
         $response = array(
             'errorCode' => $errorCode,
